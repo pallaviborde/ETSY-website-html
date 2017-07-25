@@ -1,0 +1,643 @@
+
+
+
+body {  
+	
+	display: -webkit-flex;
+	display: flex;
+	background-color: #A7D40D;
+	-webkit-flex-direction: column;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+	
+	
+}
+
+#logo {
+	
+	display: flex;
+	display: -webkit-flex;
+    	flex-wrap: wrap;
+	align-items:right;
+	-webkit-flex-wrap: wrap;
+	
+}
+
+#logo img {
+	width: 10%;
+	height: 120px;
+	margin: auto;
+
+}
+
+
+#logo h1 {
+	
+	width: 55%;
+	color: #48C9B0;
+	text-align: center;
+	margin-top: -1%;
+	padding: 1.5% 2% 5% 5%;
+}
+
+#logo h3 {
+	
+	color: #0052cc;
+	font-size: 1.2em;
+	text-align: center;
+	text-shadow: 5px -1.5px 2px white;
+	box-shadow: 5px 2px 2px white ;
+	background-image: linear-gradient(to top, red, plum);
+	margin-top: -5%;
+	margin-left: 40%;
+	padding: 1%;
+	width: 25%;
+	border-radius: 25%;
+	align-self: flex-start;
+	
+}
+
+
+#catchline{
+
+	width: 400px;
+	height: 300px;
+	
+	float: left;
+	padding: 7px;
+
+}
+
+#fatherday{
+    
+	width: 400px;
+	height: 300px;
+	
+	
+	padding: 7px;
+
+}
+
+aside {
+	
+	width: 10%;
+	margin-left: 85%; margin-top: -20%;
+	background: red;
+	border-radius: 30% 0;
+	
+	
+	color: #ccfff1;
+	padding: 1%;
+}
+
+aside p {
+	padding-top: 30%;
+}
+
+#top, #bottom {
+	text-align: center;
+	background: cyan;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 1%;
+}
+
+#top li, #bottom li {
+	display: inline;
+	padding: 1% 1.5%;
+	border-radius: 5%;
+	background: #808000;
+	}
+#top li:hover, #bottom li:hover {
+	background: #ff3385;
+}
+#top {
+	margin-top: 0;
+}
+
+#top li{
+	position: relative;
+	top: 25%;	
+}
+
+
+a:link {
+	font-weight:bold;
+	color: #ffe6e6;
+	
+}
+
+a:visited {
+	font-weight:bold;
+	color: #000066;
+	
+}
+
+a:hover {
+	font-weight:bolder; 
+	color:#00cc44; 
+	
+}
+
+
+
+#main article {
+	width: 80%;
+	margin-left: 2%;
+		
+	color: mediumvioletred;
+	
+
+	
+}
+
+
+
+footer {
+	text-align: center;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+footer p {
+	text-align: center;
+}
+
+#copyright {
+	font-size: 1.2em;
+	color: black;
+	margin-top: 2%;
+
+}
+
+
+/* Home */
+#home {
+	background-color: #ffb3ff;
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color:#8B0000;
+}
+
+#home > section > article {
+	font-size: 1.3em;
+	width: 70%;
+	margin: 6% 0 13% 10%;
+	text-align: justify;
+}
+
+#home span {
+	color: green;
+}
+
+
+
+
+/* About */
+#about {
+	background-color: #ffb3ff;
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color:#8B0000;
+	
+}
+
+#about > section > article {
+	
+	
+	color: red;
+	font-size: 1.3em;
+	width: 70%;
+	margin: 6% 0 13% 10%;
+	text-align: justify;
+	
+}
+
+
+#about article p {
+	text-align: justify;
+}
+
+#about header div h1 {
+	padding: 2% 0 2% 2%;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+
+
+em {
+	color: limegreen;
+}
+
+
+#about aside {
+	height: 70%;
+}
+
+#buyhandmade{
+
+    width: 400px;
+	height: 300px;
+	
+	float: left;
+	padding: 7px;
+}
+
+
+
+
+
+/* Contact */
+#contact {
+	background-color: #ffb3ff;
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color:#8B0000;
+}
+
+#contact article {
+	margin: auto;
+	text-align: center;
+}
+
+#contact > section > article {
+	font-size: 1.4em;
+	color: #800000;
+
+	width: 70%;
+	margin: 6% 0 13% 10%;
+	text-align: center;
+}
+
+#contact span {
+	font-weight: bold;
+}
+
+#contact aside {
+	margin-right: 2%;
+}
+
+
+/* New */
+
+#new {
+	background-color: #ffb3ff;
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color:#8B0000;
+}
+
+
+#new section h2 {
+	color: orangered;
+}
+
+#new article p {
+	text-align: justify;
+}
+
+#new > section > article {
+	
+	
+	color: red;
+	font-size: 1.3em;
+	width: 70%;
+	margin: 6% 0 13% 10%;
+	text-align: justify;
+	
+}
+
+
+#new article p {
+	text-align: justify;
+}
+
+
+
+/* support */
+
+#support section article {
+	text-align: center;
+	font-size: 1.6em;
+	color:darkmagenta;
+}
+
+#support article p {
+	margin: 25%;
+}
+
+/* Products */
+
+#products{
+	background-color: #ffb3ff;
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color:#8B0000;
+}
+
+#products article {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: justify;
+	background-size: cover;
+}
+
+#products article section {
+	
+	font-size: 1.3em;
+	width: 70%;
+	margin: 6% 0 13% 10%;
+	text-align: justify;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+#categories {
+	width: 15%;
+	margin-top: 45px;
+	color: red;
+}
+
+#categories a:link {
+	font-weight:bolder;
+	color: #ff8000;
+	}
+
+#categories a:visited {
+	font-weight:bolder;
+	color: #994d00;
+	
+}
+
+#categories a:hover {
+	font-weight:bolder; 
+	color:#00cc44; 
+	text-decoration:underline
+}
+
+#details {
+	width: 90%;
+	height: 60%;
+	margin-left: 5%;
+}
+
+#details h2 {
+	color: blue;
+	text-shadow: 2px 2px 4px #00ff00;
+}
+
+#greetings {
+	border-spacing: 10px;
+	border: 2px solid orangered;
+	outline: 1px solid green;
+	color: white;
+	background: khaki;
+	font-size: 1.1em;
+	text-shadow: 2px 2px black;
+	box-shadow: 4px 4px 4px #ffcc66,
+	-4px -4px 4px #ffcc66;
+}
+
+#candles
+{
+	border-spacing: 10px;
+	border: 2px solid orangered;
+	outline: 1px solid green;
+	color: white;
+	background: khaki;
+	font-size: 1.1em;
+	text-shadow: 2px 2px black;
+	box-shadow: 4px 4px 4px #ffcc66,
+	-4px -4px 4px #ffcc66;
+}
+
+
+#products th, #products td {
+	color: forestgreen;
+	border: 2px dotted darkmagenta;
+	text-shadow: 4px 4px 4px violet;
+}
+
+#products td {
+	width: 10%;
+	text-align: center;
+	padding: 1%;
+}
+
+#products .iproduct {
+	border: 2px solid crimson;
+	width: 60%;
+	}
+
+#products aside {
+	height: 70%;
+}
+
+/* Multimedia */
+
+#multimedia{
+	background-color: #ffb3ff;
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color:#8B0000;
+}
+
+#multimedia article {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: justify;
+	background-size: cover;
+}
+
+#multimedia article section {
+	
+	font-size: 1.3em;
+	width: 70%;
+	margin: 6% 0 13% 10%;
+	text-align: justify;
+}
+
+#col {
+	column-count:2;
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-width: auto; /* Chrome, Safari, Opera */
+    -moz-column-width: auto; /* Firefox */
+    column-width: auto;
+    background: -webkit-radial-gradient(center, circle,#DDFFFF 0%, #ff6699 200%);
+    color: crimson;
+    box-shadow: 7px 7px #b30000;
+    border-radius: 10px;
+    font-size: 3px;
+    padding: 5px;
+
+}
+
+/* Order */
+
+.products {
+	border-spacing: 5px;	
+}
+
+.products th, .products td {
+	padding: 5px;	
+}
+
+#buttons{
+	text-align: center;
+}
+
+
+/* Jobs */
+
+#parentbox {
+  display: -webkit-flex;
+             display: flex;
+             margin: 20px;
+             padding: 15px;
+             border: 3px ridge hotpink;
+             border-radius: 25px;
+             align-content: stretch;
+             text-align: center;
+              background-color: lightpink;
+              justify-content: space-around;
+              align-items: center;
+              width: 94%;
+              height: 100%;
+          }
+#flex-item1 {
+	background-color: lightgreen  ;
+             margin: 20px;
+             padding: 5px;
+             border: 3px ridge hotpink;
+             border-radius: 25px;
+             flex-grow:1;
+		text-align:left; 
+
+
+}
+
+#flex-item2 {
+	background-color: lightgreen  ;
+             margin: 20px;
+             padding: 5px;
+	     text-align:left;
+             border: 3px ridge hotpink;
+             border-radius: 25px;
+             flex-grow:1; 
+
+
+}
+
+
+#jobs{
+	background-color: #ffb3ff;
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color:#8B0000;
+}
+
+
+#jobs article section {
+	
+	font-size: 1.3em;
+	width: 70%;
+	margin: 6% 0 13% 10%;
+	text-align: justify;
+}
+
+#jobs section:first-child ul li:first-of-type { 
+	color: #e600e6;
+}
+
+#jobs section:first-child ul li:first-letter { 
+	color: blue;
+	font-size: 1.6em;
+	text-shadow: 2px 2px 8px orange;
+}
+
+#jobs section:first-child ul li:nth-child(2)  { 
+	color: red; 
+}
+
+#jobs section:first-child ul li:last-of-type  { 
+	color: medium
+springgreen; 
+}
+
+#jobs section:last-child ul li:first-of-type { 
+	color: green;
+}
+
+#jobs section:last-child ul li:first-letter { 
+	color: red;
+	font-size: 1.6em;
+	text-shadow: 2px 2px 8px yellow;
+}
+
+#jobs section:last-child ul li:nth-child(2)  { 
+	color: #e600e6; 
+}
+
+#jobs section:last-child ul li:last-of-type  { 
+	color: blue;
+}
+
+
+
+/* Mobile device */
+@media screen and (max-width: 780px) {
+   #top, #bottom {
+	text-align: center;
+	background: cyan;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 1%;
+}
+
+#top li, #bottom li {
+	display: inline;
+	padding: 1% 1.5%;
+	border-radius: 5%;
+	background: #808000;
+	}
+#top li:hover, #bottom li:hover {
+	background: #ff3385;
+}
+#top {
+	margin-top: 0;
+}
+
+#top li{
+	position: relative;
+	top: 25%;	
+}
+}
+
+
+
+
+
+
+
+
+

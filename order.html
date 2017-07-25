@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ETSY - Online Shopping - Home</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+	</head>
+	
+	<body id="home" >	   
+
+		<header>
+
+		     
+			<div id="logo">
+			<img src="logo.jpg">
+			<h1>ETSY Online shop </h1>
+			<h3> New shop for handmade goods. <hr width="120" align="center" size="5" noshade color="#00cccc"></hr></h3> 
+
+</div>
+
+		<nav>
+			<ul id="top">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="new.html">New</a></li>
+		<li><a href="product.html">Product</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		
+		<li><a href="support.html">Support</a></li>
+		<li><a href="multimedia.html">Multimedia</a></li>
+		<li><a href="order.html">Order</a></li>
+		<li><a href="jobs.html">Jobs</a></li>
+			</ul>
+			</nav>
+		</header>
+
+<section id="main">
+	<article>
+		<form>
+		<fieldset>
+			<section id="customer_info">
+				<legend>Place your Order here</legend>
+				<table>
+				<tr>
+				<th><label>First Name:</label></th>
+				<td><input type="text" name="firstname" id="firstname"></td><br/>
+				</tr>
+				<tr>
+				<th><label>Last Name:</label></th>
+				<td><input type="text" name="lastname" id="lastname"></td><br/>
+				</tr>
+				<tr>
+				<th><label>Street Address:</label></th>
+				<td><textarea id="address" name="address"></textarea></td>
+				</tr>
+				<tr>
+				<th><label>City:</label></th>
+				<td><input type="text" name="city" id="city"></td>
+				</tr>
+				<tr>
+				<th><label>State:</label></th>
+				<td><input type="text" name="state" id="state"></td><br/>
+				</tr>
+				<tr>
+				<th><label>ZIP:</label></th>
+				<td><input type="text" name="zip" id="zip"></td><br/>
+				</tr>
+				<tr>
+				<th><label>Telephone number:</label></th>
+				<td><input type="tel" name="tel" id="tel"></td>
+				</tr>
+				<tr>
+				<th><label>Email:</label></th>
+				<td><input type="email" name="email" id="email"></td>
+				</tr>
+				<tr>
+				<th><label>Credit Card Number:</label></th>
+				<td><input type="number" name="cardnumber" id="cardnumber" maxlength="16"></td>
+				</tr>
+				<tr>
+				<th><label>Credit Card Type:</label></th>
+				<td><input type="text" name="cardtype" id="cardtype" placeholder="Select Card Type" list="cardtypes">
+				<datalist id="cardtypes">
+						<option value="Master">
+						<option value="Maestro">
+						<option value="Visa">
+				</datalist>
+				</td>
+				</tr>
+				<tr>
+				<th><label>Expiration Date:</label></th>
+				<td><input type="month" name="expdate" id="expdate"></td>
+				</tr>
+				<tr>
+				<th><label>Comment:</label></th>
+				<td><textarea id="comment" name="comment"></textarea></td>
+				</tr>
+				</table>
+			</section>
+
+			<section id="myproducts">
+				<h2>Our Products</h2>
+				<table border class="products" id="myproducts">
+					<tr>
+						<th><label>Category</label></th>
+						<th><label>Description</label></th>
+						<th><label>Unit Price</label></th>
+						<th><label>Quanitity</label></th>
+						<th><label>Total Price</label></th>
+					</tr>
+					<tr>
+						<td rowspan="2">Greetings</td>
+						<td>Peacock Greeting</td>
+						<td>$5</td>
+						<td><input type="number" name="quantity" id="quantity"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p>Love greeting</p></td>
+						<td>$5</td>
+						<td><input type="number" name="quantity" id="quantity"></td>
+						<td></td>
+					</tr>
+					
+					
+					<tr>
+						<td colspan="4" align="right">Subtotal $</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td rowspan="2">Candle cases</td>
+						<td>Wooden candle cases</td>
+						<td>$25</td>
+						<td><input type="number" name="quantity" id="quantity"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Four in one candle case</td>
+						<td>$15</td>
+						<td><input type="number" name="quantity" id="quantity"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td colspan="4" align="right">Subtotal $</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td colspan="4" align="right">Total $</td>
+						<td></td>
+					</tr>
+				</table>
+				
+				
+			</section>
+			</fieldset>
+
+			<div id="buttons">
+				<button type="submit" class="button" name="SubmitButton" value="Submit">Submit</button>
+				<button type="reset" class="button" name="ResetButton" value="Reset">Reset</button>
+			</div>
+		</form>
+	</article>
+	<aside>
+	<p>"Your Gifting Headquarters!" 
+	</p>
+	</aside>
+</section>
+
+<footer>
+	<nav>
+		<ul id="bottom">
+			<li><a href="index.html">Home</a></li>
+			
+					 							
+		<li><a href="about.html">About Us</a></li>
+		
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="new.html">New</a></li>
+			<li><a href="product.html">Product</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		
+		<li><a href="support.html">Support</a></li>
+		<li><a href="multimedia.html">Multimedia</a></li>
+		<li><a href="order.html">Order</a></li>
+		<li><a href="jobs.html">Jobs</a></li>
+			
+			
+		</ul>
+	</nav>
+
+	<p id="copyright">ETSY Online shop  &copy; 2017</p>
+
+</footer>
+
+</body>
+</html>
